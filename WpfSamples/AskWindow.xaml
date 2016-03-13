@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfSamples.AskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Make a choice!" Height="77" Width="428">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Button Name="btOK" Content="OK" Margin="10,10,10,10" Width="120" HorizontalAlignment="Left" Click="btOK_OnClick" />
+            <Button Name="btCancel" Content="Cancel" Margin="10,10,10,10" Width="120" HorizontalAlignment="Left" Click="btCancel_OnClick" />
+            <Button Name="btThrow" Content="Exception" Margin="10,10,10,10" Width="120" HorizontalAlignment="Left" Click="btThrow_OnClick" />
+        </StackPanel>
+    </Grid>
+</Window>
